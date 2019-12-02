@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 20px;
+    display: block;
+    overflow: hidden;
+}
+
+header .mainmenu {
+    float: left;
+    width: 50%;
+}
+
+header a {
+    padding: 0 10px;
+    font-size: 14px;
+    color: #666666;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header .mainmenu ul {
+    display: block;
+}
+
+header .mainmenu ul li {
+    display: inline-block;
+}
+
+header .usermenu {
+    float: left;
+    width: 50%;
+}
+
+header .usermenu ul {
+    display: block;
+    text-align: right;
+}
+
+header .usermenu ul li {
+    display: inline-block;
+}
+
+header .user-icon {
+    margin: 0 0 -10px 0;
+    display: block;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+header .user-icon a {
+    padding: 0;
+    display: block;
+}
+
+header .user-icon a img {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    position: relative;
+    padding: 20px;
+    height: 72vh;
+    text-align: center;
+}
+
+.content .center {
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    width: 480px;
+}
+
+.content .logo {
+    margin: 10px 0;
+    display: block;
+}
+
+.content .search {
+    display: block
+}
+
+.content .search input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    border: 1px #dfe1e5 solid;
+    border-radius: 20px;
+}
+
+.content .search .buttons {
+    padding: 20px 0;
+    display: block;
+}
+
+.content .search .buttons button {
+    margin: 10px 5px;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    color: #5F6368;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.content .search .buttons button:hover {
+  border: 1px #c6c6c6 solid;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1); 
+}
+
+.content .language {
+    font-size: 13px;
+}
+
+.language a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.language a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    display: block;
+    overflow: hidden;
+}
+
+footer a {
+    padding: 0 10px;
+    color: #666666;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .country {
+    padding: 15px 15px 15px 20px;
+    font-size: 15px;
+    background-color: rgb(242, 242, 242);
+    color: gray;
+    margin-right: gray;
+    border: 0.5px solid #dadada;
+
+}
+
+footer .footermenu {
+    padding: 15px 15px 15px 12px;
+    display: block;
+    font-size: 13px;
+    background-color: rgb(242, 242, 242);
+    color: gray;
+    overflow: hidden;
+    border: 0.5px 0 0 0 solid #dadada;
+}
+
+footer .footermenu1 {
+    float: left;
+    width: 50%;
+}
+
+footer .footermenu1 ul {
+    display: block;
+}
+
+footer .footermenu ul li {
+    display: inline-block;
+}
+
+footer .footermenu2 {
+    float: left;
+    width: 50%;
+}
+
+footer .footermenu2 ul {
+    display: block;
+    text-align: right;
+}
+
+footer .footermenu2 ul li {
+    display: inline-block;
+}
+
+/* 
+.Menubar {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 10px blue;
+    background-color: yellow;
+    color: rgba(0, 0, 0, 0.87);
+    margin: auto;
+}
+
+#User {
+    border-radius: 18px;
+}
+
+.logo {
+    display: block;
+    padding-top: 109px;
+    left: 500px;
+    background-color: yellow;
+    border: 2px black;
+}
+
+.searchbar {
+    display: block;
+    width: 400px;
+    height: 40px;
+    border: 2px solid #B2B2B2;
+    border-radius: 40px;
+}
+
+.searchbaricon {
+    display: inline;
+    position: relative;
+}
+
+.button {
+    background-color: #f2f2f2;
+    cursor: pointer;
+    border: 1px solid #f2f2f2;
+}
+
+.firstline {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.secondline {
+    display: inline-block;
+    font-size: 13px;
+    padding: 20px;
+}
+
+#privacy {
+    margin: 0 right;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, .54) 13px;
+} */
